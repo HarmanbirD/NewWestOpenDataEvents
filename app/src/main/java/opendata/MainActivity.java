@@ -1,5 +1,6 @@
 package opendata;
 
+import android.app.AlertDialog;
 import android.app.ListActivity;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -45,10 +46,11 @@ public class MainActivity
     @NonNull
     private TextToSpeech textToSpeechEngine;
 
+    CulturalEventDOA culturalEventDOA;
+
     @Override
     protected void onCreate(final Bundle savedInstanceState)
     {
-        final CulturalEventDOA culturalEventDOA;
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
@@ -214,6 +216,23 @@ public class MainActivity
         final String selectedValue;
 
         selectedValue = (String)getListAdapter().getItem(position);
+
+        AsyncTask.execute(new Runnable()
+        {
+            @Override
+            public void run()
+            {
+                String address = culturalEventDOA.getAddress(selectedValue);
+                AlertDialog.Builder dlgAlert  = new AlertDialog.Builder(this);
+                dlgAlert.setMessage(address);
+                dlgAlert.setTitle(selectedValue);
+                dlgAlert.setPositiveButton("OK", null);
+                dlgAlert.setCancelable(true);
+                dlgAlert.create().show();
+            }
+        });
+
+
 
     }
 }
