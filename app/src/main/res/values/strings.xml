@@ -10,8 +10,10 @@
     <string name="error_invalid_email">Enter valid email</string>
     <string name="error_invalid_name">Enter a name pls</string>
     <string name="error_empty_email">Enter an email</string>
+    <string name="error_empty_name">Enter a name</string>
     <string name="error_email_exists">Email exists</string>
     <string name="error_empty_password">Enter Password</string>
+    <string name="error_invalid_password">Password must contain a capital\nPassword must contain a lowercase\nPassword must contain a number\nString must be between 6 and 20 characters</string>
     <string name="error_passwords_dont_match">Passwords Don\'t Match</string>
     <string name="error_incorrect_password">This password is incorrect</string>
     <string name="error_field_required">This field is required</string>
@@ -25,4 +27,5 @@
     <string name="email_hint">Email</string>
     <string name="name_hint">Name</string>
     <string name="text_register">Register</string>
+    <string name="successful_login">Successful Login</string>
 </resources>
