@@ -2,31 +2,30 @@
 <instant-run
     abi="x86"
     api-level="28"
-    build-mode="COLD"
+    build-mode="HOT_WARM"
     density="420dpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
     plugin-version="3.2.0-rc02"
-    timestamp="1541711373381"
+    timestamp="1541713900117"
     token="766826434352939442"
-    verifier="COLD_SWAP_REQUESTED" >
+    verifier="COMPATIBLE" >
 
     <task
         name="javac"
-        duration="2620" />
+        duration="2663" />
     <task
         name="instant-run-dex"
-        duration="0" />
+        duration="76" />
     <task
         name="instant-run-transform"
-        duration="21" />
+        duration="11" />
     <task
         name="verifier"
-        duration="12" />
+        duration="2" />
 
     <artifact
-        location="/Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-        type="SPLIT" />
+        location="/Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/build/intermediates/reload-dex/debug/classes.dex"
+        type="RELOAD_DEX" />
 
     <build
         build-mode="FULL"
@@ -74,12 +73,19 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
-        timestamp="1541711373381"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="1541713848656"
+        verifier="FIELD_ADDED" >
         <artifact
             location="/Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="HOT_WARM"
+        timestamp="1541713900117"
+        verifier="COMPATIBLE" >
+        <artifact
+            location="/Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/build/intermediates/reload-dex/debug/classes.dex"
+            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

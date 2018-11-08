@@ -6,10 +6,14 @@ import android.content.Context;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
+import android.text.SpannableString;
+import android.text.method.LinkMovementMethod;
+import android.text.util.Linkify;
 import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.gson.Gson;
@@ -226,15 +230,27 @@ public class MainActivity
             @Override
             public void run()
             {
+                Context context = MainActivity.this;
                 final String address = culturalEventDOA.getAddress(selectedValue);
                 final String description = culturalEventDOA.getDescription(selectedValue);
+                final TextView message = new TextView(context);
+                // i.e.: R.string.dialog_message =>
+                // "Test this dialog following the link to dtmilano.blogspot.com"
+                final SpannableString s =
+                        new SpannableString(culturalEventDOA.getWebsite(selectedValue));
+                Linkify.addLinks(s, Linkify.WEB_URLS);
+                String temp = "Address: " + address + "\n\nDescription: " + description;
+                message.setText(s);
+                message.setMovementMethod(LinkMovementMethod.getInstance());
+
 
 
                 runOnUiThread(new Runnable()
                 {
                     public void run()
                     {
-                        dlgAlert.setMessage("Address: " + address + "\nDescription: " + description);
+                        dlgAlert.setMessage(temp);
+                        dlgAlert.setView(message);
                         dlgAlert.setTitle(selectedValue);
                         dlgAlert.setPositiveButton("OK", null);
                         dlgAlert.setCancelable(true);
