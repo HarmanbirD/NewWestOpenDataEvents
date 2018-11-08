@@ -10,6 +10,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
@@ -49,7 +50,6 @@ public class MainActivity
 
     CulturalEventDOA culturalEventDOA;
 
-    Context current;
 
     @Override
     protected void onCreate(final Bundle savedInstanceState)
@@ -219,24 +219,29 @@ public class MainActivity
         final String selectedValue;
 
         selectedValue = (String)getListAdapter().getItem(position);
-        current = this;
+        AlertDialog.Builder dlgAlert  = new AlertDialog.Builder(this);
 
         AsyncTask.execute(new Runnable()
         {
             @Override
             public void run()
             {
-                String address = culturalEventDOA.getAddress(selectedValue);
-                AlertDialog.Builder dlgAlert  = new AlertDialog.Builder(current);
-                dlgAlert.setMessage(address);
-                dlgAlert.setTitle(selectedValue);
-                dlgAlert.setPositiveButton("OK", null);
-                dlgAlert.setCancelable(true);
-                dlgAlert.create().show();
+                final String address = culturalEventDOA.getAddress(selectedValue);
+                final String description = culturalEventDOA.getDescription(selectedValue);
+
+
+                runOnUiThread(new Runnable()
+                {
+                    public void run()
+                    {
+                        dlgAlert.setMessage("Address: " + address + "\nDescription: " + description);
+                        dlgAlert.setTitle(selectedValue);
+                        dlgAlert.setPositiveButton("OK", null);
+                        dlgAlert.setCancelable(true);
+                        dlgAlert.create().show();
+                    }
+                });
             }
         });
-
-
-
     }
 }

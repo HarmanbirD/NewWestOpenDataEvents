@@ -22,6 +22,9 @@ public interface CulturalEventDOA
     @Query("SELECT address FROM culturalEvents WHERE name LIKE :curName")
     String getAddress(String curName);
 
+    @Query("SELECT description FROM culturalEvents WHERE name LIKE :curName")
+    String getDescription(String curName);
+
     @Insert
     void insertAll(CulturalEvent... culturalEvents);
 
