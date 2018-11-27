@@ -1,14 +1,24 @@
 package ca.bcit.myapplication.login;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
+
+import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
+
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
 import androidx.appcompat.widget.AppCompatTextView;
 import android.view.View;
+import android.widget.ProgressBar;
 import android.widget.Toast;
 
 import ca.bcit.myapplication.R;
@@ -35,6 +45,9 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
     private ValidationOfInput   inputValidation;
     private DataBaseHelper      databaseHelper;
     private User                user;
+    private ProgressDialog      progressDialog;
+
+    private FirebaseAuth        firebaseAuth;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState)
@@ -42,6 +55,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
+        firebaseAuth = FirebaseAuth.getInstance();
         initViews();
         initListeners();
         initObjects();
@@ -78,8 +92,9 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
     private void initObjects()
     {
         inputValidation = new ValidationOfInput(activity);
-        databaseHelper = new DataBaseHelper(activity);
-        user = new User();
+        databaseHelper  = new DataBaseHelper(activity);
+        user            = new User();
+        progressDialog  = new ProgressDialog(this);
     }
 
 
@@ -139,24 +154,48 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
             return;
         }
 
-        if (!databaseHelper.checkUser(textInputEditTextEmail.getText().toString().trim()))
-        {
+        progressDialog.setMessage("Registering...");
+        progressDialog.show();
 
-            user.setName(textInputEditTextName.getText().toString().trim());
-            user.setEmail(textInputEditTextEmail.getText().toString().trim());
-            user.setPassword(textInputEditTextPassword.getText().toString().trim());
+        firebaseAuth.createUserWithEmailAndPassword(textInputEditTextEmail.getText().toString().trim(),
+                                                    textInputEditTextPassword.getText().toString().trim())
+                .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task)
+                    {
+                        if (task.isSuccessful())
+                        {
+                            progressDialog.dismiss();
+                            emptyInputEditText();
+                            finish();
+                            Intent intent = new Intent(activity, opendata.MainActivity.class);
+                            startActivity(intent);
+                        }
+                        else
+                        {
+                            progressDialog.dismiss();
+                            Toast.makeText(RegisterActivity.this, getString(R.string.error_email_exists), Toast.LENGTH_SHORT).show();
+                        }
+                    }
+                });
 
-            databaseHelper.addUser(user);
-
-            Toast.makeText(RegisterActivity.this, getString(R.string.success_message), Toast.LENGTH_SHORT).show();
-            emptyInputEditText();
-            finish();
-            Intent intent = new Intent(activity, opendata.MainActivity.class);
-            startActivity(intent);
-
-        } else {
-            Toast.makeText(RegisterActivity.this, getString(R.string.error_email_exists), Toast.LENGTH_SHORT).show();
-        }
+//        if (!databaseHelper.checkUser(textInputEditTextEmail.getText().toString().trim()))
+//        {
+//            user.setName(textInputEditTextName.getText().toString().trim());
+//            user.setEmail(textInputEditTextEmail.getText().toString().trim());
+//            user.setPassword(textInputEditTextPassword.getText().toString().trim());
+//
+//            databaseHelper.addUser(user);
+//
+//            Toast.makeText(RegisterActivity.this, getString(R.string.success_message), Toast.LENGTH_SHORT).show();
+//            emptyInputEditText();
+//            finish();
+//            Intent intent = new Intent(activity, opendata.MainActivity.class);
+//            startActivity(intent);
+//
+//        } else {
+//            Toast.makeText(RegisterActivity.this, getString(R.string.error_email_exists), Toast.LENGTH_SHORT).show();
+//        }
     }
 
     private void emptyInputEditText()

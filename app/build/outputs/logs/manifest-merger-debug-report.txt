@@ -4,42 +4,64 @@ ADDED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/
 INJECTED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:2:1-31:12
 INJECTED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:2:1-31:12
 INJECTED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:2:1-31:12
-MERGED from [androidx.room:room-runtime:2.0.0-rc01] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/room-runtime-2.0.0-rc01.aar/619f4e2578114bd68d5f0322c2ac217b/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.2.aar/3d128fd7ae34da4d1c8d3caad012fd3e/AndroidManifest.xml:2:1-11:12
-MERGED from [com.koushikdutta.ion:ion:2.2.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-ion-2.2.1.aar/0ae1dc2f3862bf5b0b9722a0d111a45f/AndroidManifest.xml:2:1-16:12
-MERGED from [com.google.android.material:material:1.1.0-alpha01] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/a621291ce7a8b9f705cec22296365099/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/91b1bd51dae2f04afb0318e3bf0d47f5/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.sqlite:sqlite-framework:2.0.0-rc01] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/sqlite-framework-2.0.0-rc01.aar/8b951f54a1db927625a1725e1a56a2b8/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.sqlite:sqlite:2.0.0-rc01] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/sqlite-2.0.0-rc01.aar/7bd669be0e2793c196f8313f2f0f89f7/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.fragment:fragment:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/f6c144169db8a7571ac5837755828f82/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/c099de9b5c964555881b333cbcc56ef4/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/dff2dbc38dfd332626284677e38e019f/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/1ab8a4a0058f66bcd6c4dddd6f3aa328/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/4275ec8d166739acfe587e90c49856c4/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.loader:loader:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/8673e5c3d9f2ee23ceba03b86f4c0b33/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/a3ad5f555a80e20313d029f6b86b4165/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/edef4fee9b4c5cd525329da0eb432259/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/72ba427171a3b7f6828885939717ea2d/AndroidManifest.xml:17:1-22:12
-MERGED from [com.koushikdutta.async:androidasync:2.2.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/androidasync-2.2.1.aar/6ac986c8d37ab0bd9d9a07091479abc4/AndroidManifest.xml:2:1-16:12
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0.aar/71917dcb754f5722c1e2b9673adf9871/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.transition:transition:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/0450c67e68879c6aeac74bfb0f16ca9b/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/9720c05f1e367cbabc1c2f10d84a4f26/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/8a23c9be6082ca6ee5eaa58fb538341a/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/12d3c5b48f392b7d7c32dc2fa9049171/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/5948df6552c7b28793c3977498cb8d59/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.customview:customview:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/36c230d9d5a230c9ff3dabee7f299f53/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/79448d2e366ab540e409138d49581d2e/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/a62eefc7c5b4b4b868f7d159fecc4276/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.core:core:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/1b5be35c77f1189d7bde7bb7857bc2fd/AndroidManifest.xml:17:1-24:12
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/2afc35867b095a4a8cb900b33bf5bc12/AndroidManifest.xml:17:1-25:12
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/4e2cb48f1345f5297fb231787cf68f19/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/c2240fcff7fb9cb670f41bfc9486850f/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/a0607170d3bfc20412f4859448329dad/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/2e681f09fa117eb20ba77f310dd8aa50/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/6f36bf42f5ccad683f6c448d76b1708f/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/9616544c535215063d79ae5d917acd56/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/74a511bf4c38c35350b2355ee4271f58/AndroidManifest.xml:17:1-22:12
-MERGED from [androidx.print:print:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/658a988d57dae0319b0ec3a56ee3ad9e/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.room:room-runtime:2.0.0-rc01] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/room-runtime-2.0.0-rc01.aar/9b730f6096a67e05ca44a3258901931c/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-database-16.0.5.aar/9937693b4ad7cea1513e4d51b2f647b0/AndroidManifest.xml:15:1-25:12
+MERGED from [com.google.firebase:firebase-auth:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-16.0.5.aar/7ec5cee127d13824cf4b603ab23c4043/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-core:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.5.aar/b74aa87a6641d53a12d471bb068a7ded/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.2.aar/0fbf0a9fa7e54fc4a6a5d209fa8a641a/AndroidManifest.xml:2:1-11:12
+MERGED from [com.koushikdutta.ion:ion:2.2.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-ion-2.2.1.aar/ca0d95ed25d1f608470bbb5b5a019b72/AndroidManifest.xml:2:1-16:12
+MERGED from [com.google.android.material:material:1.1.0-alpha01] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/ca5ee51ed354b1f7c96e9b0837c2a191/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/a32d73b99346e40d67e6b9d6d40c1bda/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite-framework:2.0.0-rc01] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/sqlite-framework-2.0.0-rc01.aar/5a0f92734a937aa0220bab89df79222d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.sqlite:sqlite:2.0.0-rc01] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/sqlite-2.0.0-rc01.aar/6133f4ef4bf1b9b3b1fa52cc20f8f41f/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/efacd091f3b3a46466b942480ca63db8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-interop-16.0.1.aar/042b52d0cd2be7bd101a9c7150424550/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.3.aar/9cb8780b5127bc1b126b33cb41dcd712/AndroidManifest.xml:17:1-34:12
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.5.aar/dbfa0d478054f36ec3f4e60b78a00476/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-measurement-api-16.0.3.aar/bf065cb78db408e05871d37fc25ba48b/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.3.aar/4b43fbc11b88ca1a062a8b34d6bb9ae3/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/44cd60d248982678d7b18146c45cf1aa/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-interop-16.0.1.aar/5877790257e2d5656606d24b085d9b38/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/223850d534e427f4d6eeb3f944c4b656/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.0.4] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.4.aar/1a3f55b0b23392d06113fd94d49f1685/AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/f85b56398eaa551fd7219460c8d6d4ac/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.4] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-measurement-base-16.0.4.aar/0f1ac318ae24b373209205f9f44855e7/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-stats-16.0.1.aar/ea00ede974654e498d8c2fab8c1db2bc/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-17.0.1.aar/637dfcb05ea53e8bff661fec52155329/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-ads-identifier-16.0.0.aar/0fba062043c0f28c32cfbce83b520b40/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.1.0.aar/7cec3195c069926d12efa57db5279844/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0-rc01] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0-rc01.aar/ed7686303e147036f276065d2700d1a6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/d0636b2a9991e7ad6b06ae802a6a7b12/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/0b826022e595d915e184b21e4f28a7e7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/a881e897fe7ebcacdb7294c5635ede51/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/22c840ad5f86befaf71ed2ff4bdb69cb/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/cec55eeb40f46111297d70a70c895aa7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/5e83c3c71a293859553a19e83cf2322f/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/b5d3341358c7a3871fd44342565c7e34/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/f47493f6f83a705838306eefdb4febe5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/073b77e9dac8f72df942aeb5806968d1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/30b956822e250445a547a295000334ce/AndroidManifest.xml:2:1-7:12
+MERGED from [com.koushikdutta.async:androidasync:2.2.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/androidasync-2.2.1.aar/0782d76dfe666af81308c2cd003d6b84/AndroidManifest.xml:2:1-16:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/70fb6631bf949f08ce99b339a8f28788/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/920960e0a26b17e715c6ca506b84d326/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0-rc01] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/media-1.0.0-rc01.aar/ec75f0baeb1fb5fef1e8590ca13ac510/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/842697d2e96d550a1e509ce3f7f297c9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/47f42933f2d41ee266abb17f5e4502f2/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/c33c1b18bf55d2a48d042750d03d7de0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/8b236916ac206ec88e65f36747bd79db/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/f9d89d64574839f5282df4c6925db5b7/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/2420ae74f23f7fe322c7f265cd7b51ac/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/ca6f5cba162b5e50b2f08c6e565ee954/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/fe361fd4193c77b10a093fa97f2bffb5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/985c6d80b6859deaa8b688e4e3286b28/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/7d6f9ca750d03a94ca7398e726b6e83a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/005b63492ddd156f4118a5176f677b27/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.1.aar/3ff2d59711cbbf24b4af3a4e5c07413a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/17a4cb2182a0e6ff7cc5ae57b89da3ab/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/9a7f93d684f86c5065c80505ef2e2570/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/b218c57f5581a0b2e34d8970cc5e3f04/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/c30c74942adb1762b2e1e6def3eb8a5a/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/227b5dc37d4f3e9cc59eba8377205d1d/AndroidManifest.xml:17:1-25:12
 INJECTED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:2:1-31:12
 INJECTED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:2:1-31:12
 INJECTED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:2:1-31:12
@@ -73,20 +95,54 @@ ADDED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/
 		ADDED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:8:22-69
 application
 ADDED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:10:5-29:19
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.2.aar/3d128fd7ae34da4d1c8d3caad012fd3e/AndroidManifest.xml:9:5-20
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.2.aar/3d128fd7ae34da4d1c8d3caad012fd3e/AndroidManifest.xml:9:5-20
-MERGED from [com.koushikdutta.ion:ion:2.2.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-ion-2.2.1.aar/0ae1dc2f3862bf5b0b9722a0d111a45f/AndroidManifest.xml:13:5-14:19
-MERGED from [com.koushikdutta.ion:ion:2.2.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-ion-2.2.1.aar/0ae1dc2f3862bf5b0b9722a0d111a45f/AndroidManifest.xml:13:5-14:19
-MERGED from [com.google.android.material:material:1.1.0-alpha01] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/a621291ce7a8b9f705cec22296365099/AndroidManifest.xml:22:5-20
-MERGED from [com.google.android.material:material:1.1.0-alpha01] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/a621291ce7a8b9f705cec22296365099/AndroidManifest.xml:22:5-20
-MERGED from [com.koushikdutta.async:androidasync:2.2.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/androidasync-2.2.1.aar/6ac986c8d37ab0bd9d9a07091479abc4/AndroidManifest.xml:13:5-14:19
-MERGED from [com.koushikdutta.async:androidasync:2.2.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/androidasync-2.2.1.aar/6ac986c8d37ab0bd9d9a07091479abc4/AndroidManifest.xml:13:5-14:19
-MERGED from [androidx.core:core:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/1b5be35c77f1189d7bde7bb7857bc2fd/AndroidManifest.xml:22:5-89
-MERGED from [androidx.core:core:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/1b5be35c77f1189d7bde7bb7857bc2fd/AndroidManifest.xml:22:5-89
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/2afc35867b095a4a8cb900b33bf5bc12/AndroidManifest.xml:22:5-23:19
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/2afc35867b095a4a8cb900b33bf5bc12/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-auth:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-16.0.5.aar/7ec5cee127d13824cf4b603ab23c4043/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-16.0.5.aar/7ec5cee127d13824cf4b603ab23c4043/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-core:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.5.aar/b74aa87a6641d53a12d471bb068a7ded/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.5.aar/b74aa87a6641d53a12d471bb068a7ded/AndroidManifest.xml:7:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.2.aar/0fbf0a9fa7e54fc4a6a5d209fa8a641a/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.2.aar/0fbf0a9fa7e54fc4a6a5d209fa8a641a/AndroidManifest.xml:9:5-20
+MERGED from [com.koushikdutta.ion:ion:2.2.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-ion-2.2.1.aar/ca0d95ed25d1f608470bbb5b5a019b72/AndroidManifest.xml:13:5-14:19
+MERGED from [com.koushikdutta.ion:ion:2.2.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-ion-2.2.1.aar/ca0d95ed25d1f608470bbb5b5a019b72/AndroidManifest.xml:13:5-14:19
+MERGED from [com.google.android.material:material:1.1.0-alpha01] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/ca5ee51ed354b1f7c96e9b0837c2a191/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0-alpha01] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/ca5ee51ed354b1f7c96e9b0837c2a191/AndroidManifest.xml:22:5-20
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-interop-16.0.1.aar/042b52d0cd2be7bd101a9c7150424550/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-interop-16.0.1.aar/042b52d0cd2be7bd101a9c7150424550/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.3.aar/9cb8780b5127bc1b126b33cb41dcd712/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.3.aar/9cb8780b5127bc1b126b33cb41dcd712/AndroidManifest.xml:26:5-32:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.5.aar/dbfa0d478054f36ec3f4e60b78a00476/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.5.aar/dbfa0d478054f36ec3f4e60b78a00476/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-measurement-api-16.0.3.aar/bf065cb78db408e05871d37fc25ba48b/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-measurement-api-16.0.3.aar/bf065cb78db408e05871d37fc25ba48b/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.3.aar/4b43fbc11b88ca1a062a8b34d6bb9ae3/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.3.aar/4b43fbc11b88ca1a062a8b34d6bb9ae3/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/44cd60d248982678d7b18146c45cf1aa/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/44cd60d248982678d7b18146c45cf1aa/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-interop-16.0.1.aar/5877790257e2d5656606d24b085d9b38/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-interop-16.0.1.aar/5877790257e2d5656606d24b085d9b38/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/223850d534e427f4d6eeb3f944c4b656/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/223850d534e427f4d6eeb3f944c4b656/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.0.4] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.4.aar/1a3f55b0b23392d06113fd94d49f1685/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.firebase:firebase-common:16.0.4] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.4.aar/1a3f55b0b23392d06113fd94d49f1685/AndroidManifest.xml:9:5-15:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/f85b56398eaa551fd7219460c8d6d4ac/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/f85b56398eaa551fd7219460c8d6d4ac/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.4] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-measurement-base-16.0.4.aar/0f1ac318ae24b373209205f9f44855e7/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.4] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-measurement-base-16.0.4.aar/0f1ac318ae24b373209205f9f44855e7/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-stats-16.0.1.aar/ea00ede974654e498d8c2fab8c1db2bc/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-stats-16.0.1.aar/ea00ede974654e498d8c2fab8c1db2bc/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-17.0.1.aar/637dfcb05ea53e8bff661fec52155329/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-17.0.1.aar/637dfcb05ea53e8bff661fec52155329/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-ads-identifier-16.0.0.aar/0fba062043c0f28c32cfbce83b520b40/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-ads-identifier-16.0.0.aar/0fba062043c0f28c32cfbce83b520b40/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.1.0.aar/7cec3195c069926d12efa57db5279844/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.1.0.aar/7cec3195c069926d12efa57db5279844/AndroidManifest.xml:22:5-26:19
+MERGED from [com.koushikdutta.async:androidasync:2.2.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/androidasync-2.2.1.aar/0782d76dfe666af81308c2cd003d6b84/AndroidManifest.xml:13:5-14:19
+MERGED from [com.koushikdutta.async:androidasync:2.2.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/androidasync-2.2.1.aar/0782d76dfe666af81308c2cd003d6b84/AndroidManifest.xml:13:5-14:19
+MERGED from [androidx.core:core:1.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/17a4cb2182a0e6ff7cc5ae57b89da3ab/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/17a4cb2182a0e6ff7cc5ae57b89da3ab/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/227b5dc37d4f3e9cc59eba8377205d1d/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/227b5dc37d4f3e9cc59eba8377205d1d/AndroidManifest.xml:22:5-23:19
 	android:appComponentFactory
-		ADDED from [androidx.core:core:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/1b5be35c77f1189d7bde7bb7857bc2fd/AndroidManifest.xml:22:18-86
+		ADDED from [androidx.core:core:1.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/17a4cb2182a0e6ff7cc5ae57b89da3ab/AndroidManifest.xml:22:18-86
 	android:supportsRtl
 		ADDED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:14:9-35
 	android:label
@@ -127,78 +183,122 @@ uses-sdk
 INJECTED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml
 INJECTED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml
-MERGED from [androidx.room:room-runtime:2.0.0-rc01] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/room-runtime-2.0.0-rc01.aar/619f4e2578114bd68d5f0322c2ac217b/AndroidManifest.xml:20:5-44
-MERGED from [androidx.room:room-runtime:2.0.0-rc01] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/room-runtime-2.0.0-rc01.aar/619f4e2578114bd68d5f0322c2ac217b/AndroidManifest.xml:20:5-44
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.2.aar/3d128fd7ae34da4d1c8d3caad012fd3e/AndroidManifest.xml:5:5-7:41
-MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.2.aar/3d128fd7ae34da4d1c8d3caad012fd3e/AndroidManifest.xml:5:5-7:41
-MERGED from [com.koushikdutta.ion:ion:2.2.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-ion-2.2.1.aar/0ae1dc2f3862bf5b0b9722a0d111a45f/AndroidManifest.xml:7:5-9:41
-MERGED from [com.koushikdutta.ion:ion:2.2.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-ion-2.2.1.aar/0ae1dc2f3862bf5b0b9722a0d111a45f/AndroidManifest.xml:7:5-9:41
-MERGED from [com.google.android.material:material:1.1.0-alpha01] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/a621291ce7a8b9f705cec22296365099/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.material:material:1.1.0-alpha01] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/a621291ce7a8b9f705cec22296365099/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/91b1bd51dae2f04afb0318e3bf0d47f5/AndroidManifest.xml:20:5-44
-MERGED from [androidx.appcompat:appcompat:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/91b1bd51dae2f04afb0318e3bf0d47f5/AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite-framework:2.0.0-rc01] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/sqlite-framework-2.0.0-rc01.aar/8b951f54a1db927625a1725e1a56a2b8/AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite-framework:2.0.0-rc01] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/sqlite-framework-2.0.0-rc01.aar/8b951f54a1db927625a1725e1a56a2b8/AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite:2.0.0-rc01] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/sqlite-2.0.0-rc01.aar/7bd669be0e2793c196f8313f2f0f89f7/AndroidManifest.xml:20:5-44
-MERGED from [androidx.sqlite:sqlite:2.0.0-rc01] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/sqlite-2.0.0-rc01.aar/7bd669be0e2793c196f8313f2f0f89f7/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/f6c144169db8a7571ac5837755828f82/AndroidManifest.xml:20:5-44
-MERGED from [androidx.fragment:fragment:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/f6c144169db8a7571ac5837755828f82/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/c099de9b5c964555881b333cbcc56ef4/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/c099de9b5c964555881b333cbcc56ef4/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/dff2dbc38dfd332626284677e38e019f/AndroidManifest.xml:20:5-44
-MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/dff2dbc38dfd332626284677e38e019f/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/1ab8a4a0058f66bcd6c4dddd6f3aa328/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/1ab8a4a0058f66bcd6c4dddd6f3aa328/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/4275ec8d166739acfe587e90c49856c4/AndroidManifest.xml:20:5-44
-MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/4275ec8d166739acfe587e90c49856c4/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/8673e5c3d9f2ee23ceba03b86f4c0b33/AndroidManifest.xml:20:5-44
-MERGED from [androidx.loader:loader:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/8673e5c3d9f2ee23ceba03b86f4c0b33/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/a3ad5f555a80e20313d029f6b86b4165/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/a3ad5f555a80e20313d029f6b86b4165/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/edef4fee9b4c5cd525329da0eb432259/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/edef4fee9b4c5cd525329da0eb432259/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/72ba427171a3b7f6828885939717ea2d/AndroidManifest.xml:20:5-44
-MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/72ba427171a3b7f6828885939717ea2d/AndroidManifest.xml:20:5-44
-MERGED from [com.koushikdutta.async:androidasync:2.2.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/androidasync-2.2.1.aar/6ac986c8d37ab0bd9d9a07091479abc4/AndroidManifest.xml:7:5-9:41
-MERGED from [com.koushikdutta.async:androidasync:2.2.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/androidasync-2.2.1.aar/6ac986c8d37ab0bd9d9a07091479abc4/AndroidManifest.xml:7:5-9:41
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0.aar/71917dcb754f5722c1e2b9673adf9871/AndroidManifest.xml:20:5-44
-MERGED from [androidx.vectordrawable:vectordrawable:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.0.aar/71917dcb754f5722c1e2b9673adf9871/AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/0450c67e68879c6aeac74bfb0f16ca9b/AndroidManifest.xml:20:5-44
-MERGED from [androidx.transition:transition:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/0450c67e68879c6aeac74bfb0f16ca9b/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/9720c05f1e367cbabc1c2f10d84a4f26/AndroidManifest.xml:20:5-44
-MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/9720c05f1e367cbabc1c2f10d84a4f26/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/8a23c9be6082ca6ee5eaa58fb538341a/AndroidManifest.xml:20:5-44
-MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/8a23c9be6082ca6ee5eaa58fb538341a/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/12d3c5b48f392b7d7c32dc2fa9049171/AndroidManifest.xml:20:5-44
-MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/12d3c5b48f392b7d7c32dc2fa9049171/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/5948df6552c7b28793c3977498cb8d59/AndroidManifest.xml:20:5-44
-MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/5948df6552c7b28793c3977498cb8d59/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/36c230d9d5a230c9ff3dabee7f299f53/AndroidManifest.xml:20:5-44
-MERGED from [androidx.customview:customview:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/36c230d9d5a230c9ff3dabee7f299f53/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/79448d2e366ab540e409138d49581d2e/AndroidManifest.xml:20:5-44
-MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/79448d2e366ab540e409138d49581d2e/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/a62eefc7c5b4b4b868f7d159fecc4276/AndroidManifest.xml:20:5-44
-MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/a62eefc7c5b4b4b868f7d159fecc4276/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/1b5be35c77f1189d7bde7bb7857bc2fd/AndroidManifest.xml:20:5-44
-MERGED from [androidx.core:core:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/core-1.0.0.aar/1b5be35c77f1189d7bde7bb7857bc2fd/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/2afc35867b095a4a8cb900b33bf5bc12/AndroidManifest.xml:20:5-44
-MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/2afc35867b095a4a8cb900b33bf5bc12/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/4e2cb48f1345f5297fb231787cf68f19/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/4e2cb48f1345f5297fb231787cf68f19/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/c2240fcff7fb9cb670f41bfc9486850f/AndroidManifest.xml:20:5-44
-MERGED from [androidx.cardview:cardview:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/c2240fcff7fb9cb670f41bfc9486850f/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/a0607170d3bfc20412f4859448329dad/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/a0607170d3bfc20412f4859448329dad/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/2e681f09fa117eb20ba77f310dd8aa50/AndroidManifest.xml:20:5-44
-MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/2e681f09fa117eb20ba77f310dd8aa50/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/6f36bf42f5ccad683f6c448d76b1708f/AndroidManifest.xml:20:5-44
-MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/6f36bf42f5ccad683f6c448d76b1708f/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/9616544c535215063d79ae5d917acd56/AndroidManifest.xml:20:5-44
-MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/9616544c535215063d79ae5d917acd56/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/74a511bf4c38c35350b2355ee4271f58/AndroidManifest.xml:20:5-44
-MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/74a511bf4c38c35350b2355ee4271f58/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/658a988d57dae0319b0ec3a56ee3ad9e/AndroidManifest.xml:20:5-44
-MERGED from [androidx.print:print:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/658a988d57dae0319b0ec3a56ee3ad9e/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.0.0-rc01] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/room-runtime-2.0.0-rc01.aar/9b730f6096a67e05ca44a3258901931c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.room:room-runtime:2.0.0-rc01] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/room-runtime-2.0.0-rc01.aar/9b730f6096a67e05ca44a3258901931c/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-database-16.0.5.aar/9937693b4ad7cea1513e4d51b2f647b0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-database:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-database-16.0.5.aar/9937693b4ad7cea1513e4d51b2f647b0/AndroidManifest.xml:18:5-20:41
+MERGED from [com.google.firebase:firebase-auth:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-16.0.5.aar/7ec5cee127d13824cf4b603ab23c4043/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-16.0.5.aar/7ec5cee127d13824cf4b603ab23c4043/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.5.aar/b74aa87a6641d53a12d471bb068a7ded/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.5.aar/b74aa87a6641d53a12d471bb068a7ded/AndroidManifest.xml:5:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.2.aar/0fbf0a9fa7e54fc4a6a5d209fa8a641a/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:1.1.2] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/constraintlayout-1.1.2.aar/0fbf0a9fa7e54fc4a6a5d209fa8a641a/AndroidManifest.xml:5:5-7:41
+MERGED from [com.koushikdutta.ion:ion:2.2.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-ion-2.2.1.aar/ca0d95ed25d1f608470bbb5b5a019b72/AndroidManifest.xml:7:5-9:41
+MERGED from [com.koushikdutta.ion:ion:2.2.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-ion-2.2.1.aar/ca0d95ed25d1f608470bbb5b5a019b72/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.1.0-alpha01] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/ca5ee51ed354b1f7c96e9b0837c2a191/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0-alpha01] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/ca5ee51ed354b1f7c96e9b0837c2a191/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/a32d73b99346e40d67e6b9d6d40c1bda/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.0.2] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/a32d73b99346e40d67e6b9d6d40c1bda/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.0-rc01] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/sqlite-framework-2.0.0-rc01.aar/5a0f92734a937aa0220bab89df79222d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite-framework:2.0.0-rc01] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/sqlite-framework-2.0.0-rc01.aar/5a0f92734a937aa0220bab89df79222d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.0-rc01] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/sqlite-2.0.0-rc01.aar/6133f4ef4bf1b9b3b1fa52cc20f8f41f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.sqlite:sqlite:2.0.0-rc01] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/sqlite-2.0.0-rc01.aar/6133f4ef4bf1b9b3b1fa52cc20f8f41f/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/efacd091f3b3a46466b942480ca63db8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/play-services-flags-16.0.1.aar/efacd091f3b3a46466b942480ca63db8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-interop-16.0.1.aar/042b52d0cd2be7bd101a9c7150424550/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-interop-16.0.1.aar/042b52d0cd2be7bd101a9c7150424550/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.3.aar/9cb8780b5127bc1b126b33cb41dcd712/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.3.aar/9cb8780b5127bc1b126b33cb41dcd712/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.5.aar/dbfa0d478054f36ec3f4e60b78a00476/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.5.aar/dbfa0d478054f36ec3f4e60b78a00476/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-measurement-api-16.0.3.aar/bf065cb78db408e05871d37fc25ba48b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-measurement-api-16.0.3.aar/bf065cb78db408e05871d37fc25ba48b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.3.aar/4b43fbc11b88ca1a062a8b34d6bb9ae3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.3.aar/4b43fbc11b88ca1a062a8b34d6bb9ae3/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/44cd60d248982678d7b18146c45cf1aa/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/44cd60d248982678d7b18146c45cf1aa/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-interop-16.0.1.aar/5877790257e2d5656606d24b085d9b38/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-interop-16.0.1.aar/5877790257e2d5656606d24b085d9b38/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/223850d534e427f4d6eeb3f944c4b656/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/223850d534e427f4d6eeb3f944c4b656/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.0.4] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.4.aar/1a3f55b0b23392d06113fd94d49f1685/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-common:16.0.4] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.4.aar/1a3f55b0b23392d06113fd94d49f1685/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/f85b56398eaa551fd7219460c8d6d4ac/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-tasks-16.0.1.aar/f85b56398eaa551fd7219460c8d6d4ac/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.4] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-measurement-base-16.0.4.aar/0f1ac318ae24b373209205f9f44855e7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.4] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-measurement-base-16.0.4.aar/0f1ac318ae24b373209205f9f44855e7/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-stats-16.0.1.aar/ea00ede974654e498d8c2fab8c1db2bc/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-stats-16.0.1.aar/ea00ede974654e498d8c2fab8c1db2bc/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-17.0.1.aar/637dfcb05ea53e8bff661fec52155329/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-17.0.1.aar/637dfcb05ea53e8bff661fec52155329/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-ads-identifier-16.0.0.aar/0fba062043c0f28c32cfbce83b520b40/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-ads-identifier-16.0.0.aar/0fba062043c0f28c32cfbce83b520b40/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.1.0.aar/7cec3195c069926d12efa57db5279844/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.1.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.1.0.aar/7cec3195c069926d12efa57db5279844/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0-rc01] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0-rc01.aar/ed7686303e147036f276065d2700d1a6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0-rc01] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/legacy-support-v4-1.0.0-rc01.aar/ed7686303e147036f276065d2700d1a6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/d0636b2a9991e7ad6b06ae802a6a7b12/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/recyclerview-1.0.0.aar/d0636b2a9991e7ad6b06ae802a6a7b12/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/0b826022e595d915e184b21e4f28a7e7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/vectordrawable-animated-1.0.0.aar/0b826022e595d915e184b21e4f28a7e7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/a881e897fe7ebcacdb7294c5635ede51/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/fragment-1.0.0.aar/a881e897fe7ebcacdb7294c5635ede51/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/22c840ad5f86befaf71ed2ff4bdb69cb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/legacy-support-core-ui-1.0.0.aar/22c840ad5f86befaf71ed2ff4bdb69cb/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/cec55eeb40f46111297d70a70c895aa7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/legacy-support-core-utils-1.0.0.aar/cec55eeb40f46111297d70a70c895aa7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/5e83c3c71a293859553a19e83cf2322f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/loader-1.0.0.aar/5e83c3c71a293859553a19e83cf2322f/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/b5d3341358c7a3871fd44342565c7e34/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-2.0.0.aar/b5d3341358c7a3871fd44342565c7e34/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/f47493f6f83a705838306eefdb4febe5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/lifecycle-livedata-core-2.0.0.aar/f47493f6f83a705838306eefdb4febe5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/073b77e9dac8f72df942aeb5806968d1/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/core-runtime-2.0.0.aar/073b77e9dac8f72df942aeb5806968d1/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/30b956822e250445a547a295000334ce/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/firebase-database-collection-16.0.1.aar/30b956822e250445a547a295000334ce/AndroidManifest.xml:5:5-44
+MERGED from [com.koushikdutta.async:androidasync:2.2.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/androidasync-2.2.1.aar/0782d76dfe666af81308c2cd003d6b84/AndroidManifest.xml:7:5-9:41
+MERGED from [com.koushikdutta.async:androidasync:2.2.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/androidasync-2.2.1.aar/0782d76dfe666af81308c2cd003d6b84/AndroidManifest.xml:7:5-9:41
+MERGED from [androidx.transition:transition:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/70fb6631bf949f08ce99b339a8f28788/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/transition-1.0.0.aar/70fb6631bf949f08ce99b339a8f28788/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/920960e0a26b17e715c6ca506b84d326/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/920960e0a26b17e715c6ca506b84d326/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0-rc01] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/media-1.0.0-rc01.aar/ec75f0baeb1fb5fef1e8590ca13ac510/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0-rc01] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/media-1.0.0-rc01.aar/ec75f0baeb1fb5fef1e8590ca13ac510/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/842697d2e96d550a1e509ce3f7f297c9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/documentfile-1.0.0.aar/842697d2e96d550a1e509ce3f7f297c9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/47f42933f2d41ee266abb17f5e4502f2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-1.0.0.aar/47f42933f2d41ee266abb17f5e4502f2/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/c33c1b18bf55d2a48d042750d03d7de0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/print-1.0.0.aar/c33c1b18bf55d2a48d042750d03d7de0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/8b236916ac206ec88e65f36747bd79db/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/lifecycle-viewmodel-2.0.0.aar/8b236916ac206ec88e65f36747bd79db/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/f9d89d64574839f5282df4c6925db5b7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/viewpager-1.0.0.aar/f9d89d64574839f5282df4c6925db5b7/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/2420ae74f23f7fe322c7f265cd7b51ac/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-1.0.0.aar/2420ae74f23f7fe322c7f265cd7b51ac/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/ca6f5cba162b5e50b2f08c6e565ee954/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/drawerlayout-1.0.0.aar/ca6f5cba162b5e50b2f08c6e565ee954/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/fe361fd4193c77b10a093fa97f2bffb5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-1.0.0.aar/fe361fd4193c77b10a093fa97f2bffb5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/985c6d80b6859deaa8b688e4e3286b28/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/customview-1.0.0.aar/985c6d80b6859deaa8b688e4e3286b28/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/7d6f9ca750d03a94ca7398e726b6e83a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-1.0.0.aar/7d6f9ca750d03a94ca7398e726b6e83a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/005b63492ddd156f4118a5176f677b27/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-1.0.0.aar/005b63492ddd156f4118a5176f677b27/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.1.aar/3ff2d59711cbbf24b4af3a4e5c07413a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/vectordrawable-1.0.1.aar/3ff2d59711cbbf24b4af3a4e5c07413a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/17a4cb2182a0e6ff7cc5ae57b89da3ab/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/core-1.0.1.aar/17a4cb2182a0e6ff7cc5ae57b89da3ab/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/9a7f93d684f86c5065c80505ef2e2570/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/lifecycle-runtime-2.0.0.aar/9a7f93d684f86c5065c80505ef2e2570/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/b218c57f5581a0b2e34d8970cc5e3f04/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/b218c57f5581a0b2e34d8970cc5e3f04/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/c30c74942adb1762b2e1e6def3eb8a5a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/c30c74942adb1762b2e1e6def3eb8a5a/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/227b5dc37d4f3e9cc59eba8377205d1d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/227b5dc37d4f3e9cc59eba8377205d1d/AndroidManifest.xml:20:5-44
 INJECTED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml
 INJECTED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -209,9 +309,191 @@ INJECTED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/s
 		INJECTED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml
 		ADDED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml
-uses-permission#android.permission.INTERNET
-ADDED from [com.koushikdutta.ion:ion:2.2.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-ion-2.2.1.aar/0ae1dc2f3862bf5b0b9722a0d111a45f/AndroidManifest.xml:11:5-67
-MERGED from [com.koushikdutta.async:androidasync:2.2.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/androidasync-2.2.1.aar/6ac986c8d37ab0bd9d9a07091479abc4/AndroidManifest.xml:11:5-67
-MERGED from [com.koushikdutta.async:androidasync:2.2.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/androidasync-2.2.1.aar/6ac986c8d37ab0bd9d9a07091479abc4/AndroidManifest.xml:11:5-67
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-database:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-database-16.0.5.aar/9937693b4ad7cea1513e4d51b2f647b0/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.3.aar/9cb8780b5127bc1b126b33cb41dcd712/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.3.aar/9cb8780b5127bc1b126b33cb41dcd712/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.5.aar/dbfa0d478054f36ec3f4e60b78a00476/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.5.aar/dbfa0d478054f36ec3f4e60b78a00476/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.3.aar/4b43fbc11b88ca1a062a8b34d6bb9ae3/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.3.aar/4b43fbc11b88ca1a062a8b34d6bb9ae3/AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/44cd60d248982678d7b18146c45cf1aa/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/44cd60d248982678d7b18146c45cf1aa/AndroidManifest.xml:22:5-79
 	android:name
-		ADDED from [com.koushikdutta.ion:ion:2.2.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-ion-2.2.1.aar/0ae1dc2f3862bf5b0b9722a0d111a45f/AndroidManifest.xml:11:22-64
+		ADDED from [com.google.firebase:firebase-database:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-database-16.0.5.aar/9937693b4ad7cea1513e4d51b2f647b0/AndroidManifest.xml:22:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-database:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-database-16.0.5.aar/9937693b4ad7cea1513e4d51b2f647b0/AndroidManifest.xml:23:5-67
+MERGED from [com.koushikdutta.ion:ion:2.2.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-ion-2.2.1.aar/ca0d95ed25d1f608470bbb5b5a019b72/AndroidManifest.xml:11:5-67
+MERGED from [com.koushikdutta.ion:ion:2.2.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-ion-2.2.1.aar/ca0d95ed25d1f608470bbb5b5a019b72/AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.3.aar/9cb8780b5127bc1b126b33cb41dcd712/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.3.aar/9cb8780b5127bc1b126b33cb41dcd712/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.5.aar/dbfa0d478054f36ec3f4e60b78a00476/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.5.aar/dbfa0d478054f36ec3f4e60b78a00476/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.3.aar/4b43fbc11b88ca1a062a8b34d6bb9ae3/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.3.aar/4b43fbc11b88ca1a062a8b34d6bb9ae3/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/44cd60d248982678d7b18146c45cf1aa/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/44cd60d248982678d7b18146c45cf1aa/AndroidManifest.xml:23:5-67
+MERGED from [com.koushikdutta.async:androidasync:2.2.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/androidasync-2.2.1.aar/0782d76dfe666af81308c2cd003d6b84/AndroidManifest.xml:11:5-67
+MERGED from [com.koushikdutta.async:androidasync:2.2.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/androidasync-2.2.1.aar/0782d76dfe666af81308c2cd003d6b84/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-database:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-database-16.0.5.aar/9937693b4ad7cea1513e4d51b2f647b0/AndroidManifest.xml:23:22-64
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-16.0.5.aar/7ec5cee127d13824cf4b603ab23c4043/AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-16.0.5.aar/7ec5cee127d13824cf4b603ab23c4043/AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-16.0.5.aar/7ec5cee127d13824cf4b603ab23c4043/AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-16.0.5.aar/7ec5cee127d13824cf4b603ab23c4043/AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-16.0.5.aar/7ec5cee127d13824cf4b603ab23c4043/AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-16.0.5.aar/7ec5cee127d13824cf4b603ab23c4043/AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-16.0.5.aar/7ec5cee127d13824cf4b603ab23c4043/AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-16.0.5.aar/7ec5cee127d13824cf4b603ab23c4043/AndroidManifest.xml:25:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-16.0.5.aar/7ec5cee127d13824cf4b603ab23c4043/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.3.aar/9cb8780b5127bc1b126b33cb41dcd712/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.3.aar/9cb8780b5127bc1b126b33cb41dcd712/AndroidManifest.xml:27:9-31:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/44cd60d248982678d7b18146c45cf1aa/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/44cd60d248982678d7b18146c45cf1aa/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-16.0.5.aar/7ec5cee127d13824cf4b603ab23c4043/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-16.0.5.aar/7ec5cee127d13824cf4b603ab23c4043/AndroidManifest.xml:34:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-16.0.5.aar/7ec5cee127d13824cf4b603ab23c4043/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-16.0.5.aar/7ec5cee127d13824cf4b603ab23c4043/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-16.0.5.aar/7ec5cee127d13824cf4b603ab23c4043/AndroidManifest.xml:37:17-109
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.3.aar/9cb8780b5127bc1b126b33cb41dcd712/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.5.aar/dbfa0d478054f36ec3f4e60b78a00476/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.5.aar/dbfa0d478054f36ec3f4e60b78a00476/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.3.aar/4b43fbc11b88ca1a062a8b34d6bb9ae3/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.3.aar/4b43fbc11b88ca1a062a8b34d6bb9ae3/AndroidManifest.xml:25:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/44cd60d248982678d7b18146c45cf1aa/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/44cd60d248982678d7b18146c45cf1aa/AndroidManifest.xml:24:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.3.aar/9cb8780b5127bc1b126b33cb41dcd712/AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.3.aar/9cb8780b5127bc1b126b33cb41dcd712/AndroidManifest.xml:28:13-30:85
+	android:value
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.3.aar/9cb8780b5127bc1b126b33cb41dcd712/AndroidManifest.xml:30:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-measurement-connector-impl:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-measurement-connector-impl-17.0.3.aar/9cb8780b5127bc1b126b33cb41dcd712/AndroidManifest.xml:29:17-139
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.firebase:firebase-analytics:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.5.aar/dbfa0d478054f36ec3f4e60b78a00476/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.3.aar/4b43fbc11b88ca1a062a8b34d6bb9ae3/AndroidManifest.xml:26:5-110
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.3.aar/4b43fbc11b88ca1a062a8b34d6bb9ae3/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.5.aar/dbfa0d478054f36ec3f4e60b78a00476/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.5.aar/dbfa0d478054f36ec3f4e60b78a00476/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.5.aar/dbfa0d478054f36ec3f4e60b78a00476/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.5.aar/dbfa0d478054f36ec3f4e60b78a00476/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.5.aar/dbfa0d478054f36ec3f4e60b78a00476/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.firebase:firebase-analytics:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.5.aar/dbfa0d478054f36ec3f4e60b78a00476/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.3.aar/4b43fbc11b88ca1a062a8b34d6bb9ae3/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.firebase:firebase-analytics-impl:16.2.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-impl-16.2.3.aar/4b43fbc11b88ca1a062a8b34d6bb9ae3/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.5.aar/dbfa0d478054f36ec3f4e60b78a00476/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.5.aar/dbfa0d478054f36ec3f4e60b78a00476/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.5.aar/dbfa0d478054f36ec3f4e60b78a00476/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.5.aar/dbfa0d478054f36ec3f4e60b78a00476/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.5.aar/dbfa0d478054f36ec3f4e60b78a00476/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.firebase:firebase-analytics:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.5.aar/dbfa0d478054f36ec3f4e60b78a00476/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.5.aar/dbfa0d478054f36ec3f4e60b78a00476/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.5.aar/dbfa0d478054f36ec3f4e60b78a00476/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.5.aar/dbfa0d478054f36ec3f4e60b78a00476/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.5.aar/dbfa0d478054f36ec3f4e60b78a00476/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.5.aar/dbfa0d478054f36ec3f4e60b78a00476/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.firebase:firebase-analytics:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.5.aar/dbfa0d478054f36ec3f4e60b78a00476/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.5.aar/dbfa0d478054f36ec3f4e60b78a00476/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.5.aar/dbfa0d478054f36ec3f4e60b78a00476/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.5.aar/dbfa0d478054f36ec3f4e60b78a00476/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-analytics-16.0.5.aar/dbfa0d478054f36ec3f4e60b78a00476/AndroidManifest.xml:49:13-87
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/44cd60d248982678d7b18146c45cf1aa/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/44cd60d248982678d7b18146c45cf1aa/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/44cd60d248982678d7b18146c45cf1aa/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/44cd60d248982678d7b18146c45cf1aa/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/44cd60d248982678d7b18146c45cf1aa/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/44cd60d248982678d7b18146c45cf1aa/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/44cd60d248982678d7b18146c45cf1aa/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/44cd60d248982678d7b18146c45cf1aa/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/44cd60d248982678d7b18146c45cf1aa/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/44cd60d248982678d7b18146c45cf1aa/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/44cd60d248982678d7b18146c45cf1aa/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/44cd60d248982678d7b18146c45cf1aa/AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/44cd60d248982678d7b18146c45cf1aa/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/44cd60d248982678d7b18146c45cf1aa/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/44cd60d248982678d7b18146c45cf1aa/AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/44cd60d248982678d7b18146c45cf1aa/AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/44cd60d248982678d7b18146c45cf1aa/AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/44cd60d248982678d7b18146c45cf1aa/AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.3] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-iid-17.0.3.aar/44cd60d248982678d7b18146c45cf1aa/AndroidManifest.xml:54:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/223850d534e427f4d6eeb3f944c4b656/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/223850d534e427f4d6eeb3f944c4b656/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/223850d534e427f4d6eeb3f944c4b656/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-base-16.0.1.aar/223850d534e427f4d6eeb3f944c4b656/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.0.4] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.4.aar/1a3f55b0b23392d06113fd94d49f1685/AndroidManifest.xml:10:9-14:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.0.4] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.4.aar/1a3f55b0b23392d06113fd94d49f1685/AndroidManifest.xml:12:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.0.4] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.4.aar/1a3f55b0b23392d06113fd94d49f1685/AndroidManifest.xml:13:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.0.4] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.4.aar/1a3f55b0b23392d06113fd94d49f1685/AndroidManifest.xml:14:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.0.4] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-common-16.0.4.aar/1a3f55b0b23392d06113fd94d49f1685/AndroidManifest.xml:11:13-77
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.1.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.1.0.aar/7cec3195c069926d12efa57db5279844/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.1.0.aar/7cec3195c069926d12efa57db5279844/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.1.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-play-services-basement-16.1.0.aar/7cec3195c069926d12efa57db5279844/AndroidManifest.xml:24:13-58

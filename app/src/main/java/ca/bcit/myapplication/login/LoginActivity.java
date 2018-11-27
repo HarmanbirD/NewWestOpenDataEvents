@@ -1,8 +1,16 @@
 package ca.bcit.myapplication.login;
 
+import android.app.ProgressDialog;
 import android.content.Intent;
+
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputEditText;
 import com.google.android.material.textfield.TextInputLayout;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import androidx.appcompat.widget.AppCompatButton;
@@ -20,24 +28,34 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 {
     private final AppCompatActivity activity = LoginActivity.this;
 
-    private TextInputLayout textInputLayoutEmail;
-    private TextInputLayout textInputLayoutPassword;
+    private TextInputLayout     textInputLayoutEmail;
+    private TextInputLayout     textInputLayoutPassword;
 
-    private TextInputEditText textInputEditTextEmail;
-    private TextInputEditText textInputEditTextPassword;
+    private TextInputEditText   textInputEditTextEmail;
+    private TextInputEditText   textInputEditTextPassword;
 
-    private AppCompatButton appCompatButtonLogin;
+    private AppCompatButton     appCompatButtonLogin;
 
-    private AppCompatTextView textViewLinkRegister;
+    private AppCompatTextView   textViewLinkRegister;
 
-    private ValidationOfInput inputValidation;
-    private DataBaseHelper databaseHelper;
+    private ValidationOfInput   inputValidation;
+    private DataBaseHelper      databaseHelper;
+
+    private ProgressDialog      progressDialog;
+    private FirebaseAuth        firebaseAuth;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+        firebaseAuth = FirebaseAuth.getInstance();
+
+        if (firebaseAuth.getCurrentUser() != null)
+        {
+            loggedIn();
+        }
 
         initViews();
         initListeners();
@@ -65,7 +83,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     private void initObjects()
     {
-        databaseHelper = new DataBaseHelper(activity);
+        progressDialog  = new ProgressDialog(this);
+        databaseHelper  = new DataBaseHelper(activity);
         inputValidation = new ValidationOfInput(activity);
     }
 
@@ -104,17 +123,48 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             return;
         }
 
-        if (databaseHelper.checkUser(textInputEditTextEmail.getText().toString().trim(),
-                textInputEditTextPassword.getText().toString().trim()))
-        {
-            finish();
-            Intent intent = new Intent(activity, opendata.MainActivity.class);
-            emptyInputEditText();
-            startActivity(intent);
+        progressDialog.setMessage("Logging in...");
+        progressDialog.show();
 
-        } else {
-            Toast.makeText(LoginActivity.this, getString(R.string.error_invalid_email_password), Toast.LENGTH_LONG).show();
-        }
+        firebaseAuth.signInWithEmailAndPassword(textInputEditTextEmail.getText().toString(),
+                                                textInputEditTextPassword.getText().toString())
+                .addOnCompleteListener(new OnCompleteListener<AuthResult>()
+                {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task)
+                    {
+                        if (task.isSuccessful())
+                        {
+                            progressDialog.dismiss();
+                            loggedIn();
+                            emptyInputEditText();
+                        }
+                        else
+                        {
+                            progressDialog.dismiss();
+                            Toast.makeText(LoginActivity.this, getString(R.string.error_invalid_email_password), Toast.LENGTH_LONG).show();
+                        }
+                    }
+                });
+
+//        if (databaseHelper.checkUser(textInputEditTextEmail.getText().toString().trim(),
+//                textInputEditTextPassword.getText().toString().trim()))
+//        {
+//            finish();
+//            Intent intent = new Intent(activity, opendata.MainActivity.class);
+//            emptyInputEditText();
+//            startActivity(intent);
+//
+//        } else {
+//            Toast.makeText(LoginActivity.this, getString(R.string.error_invalid_email_password), Toast.LENGTH_LONG).show();
+//        }
+    }
+
+    private void loggedIn()
+    {
+        finish();
+        Intent intent = new Intent(activity, opendata.MainActivity.class);
+        startActivity(intent);
     }
 
     private void emptyInputEditText()

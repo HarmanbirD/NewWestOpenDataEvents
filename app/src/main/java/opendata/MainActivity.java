@@ -3,6 +3,7 @@ package opendata;
 import android.app.AlertDialog;
 import android.app.ListActivity;
 import android.content.Context;
+import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.speech.tts.TextToSpeech;
@@ -12,15 +13,20 @@ import android.text.util.Linkify;
 import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.koushikdutta.async.future.FutureCallback;
 import com.koushikdutta.ion.Ion;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
 
@@ -36,7 +42,11 @@ import static opendata.data.CulturalEvents.Feature.Properties;
 
 public class MainActivity
     extends ListActivity
+    implements View.OnClickListener
 {
+    @NonNull
+    private FirebaseAuth firebaseAuth;
+
     @NonNull
     private static final String TAG = MainActivity.class.getName();
 
@@ -49,11 +59,9 @@ public class MainActivity
     @NonNull
     private List<String> names;
 
-    @NonNull
-    private TextToSpeech textToSpeechEngine;
+    private Button logoutButton;
 
     CulturalEventDOA culturalEventDOA;
-
 
     @Override
     protected void onCreate(final Bundle savedInstanceState)
@@ -62,22 +70,11 @@ public class MainActivity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        firebaseAuth = FirebaseAuth.getInstance();
+
         database = Room.databaseBuilder(getApplicationContext(),
                 CultureEventsDatabase.class,
                 "artists").build();
-
-        textToSpeechEngine = new TextToSpeech(getApplicationContext(),
-                new TextToSpeech.OnInitListener()
-                {
-                    @Override
-                    public void onInit(final int status)
-                    {
-                        if(status != TextToSpeech.ERROR)
-                        {
-                            textToSpeechEngine.setLanguage(Locale.CANADA);
-                        }
-                    }
-                });
 
         culturalEventDOA = database.culturalEventDOA();
 
@@ -108,6 +105,9 @@ public class MainActivity
                 });
             }
         });
+
+        logoutButton = findViewById(R.id.logout);
+        logoutButton.setOnClickListener(this);
     }
 
     private void downloadData(@NonNull final String url,
@@ -259,5 +259,16 @@ public class MainActivity
                 });
             }
         });
+    }
+
+    @Override
+    public void onClick(View v)
+    {
+        if (v == logoutButton)
+        {
+            firebaseAuth.signOut();
+            finish();
+            startActivity(new Intent(this, ca.bcit.myapplication.login.LoginActivity.class));
+        }
     }
 }

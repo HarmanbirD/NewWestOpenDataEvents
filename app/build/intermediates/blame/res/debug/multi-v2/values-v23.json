@@ -4,7 +4,17 @@
             "outputFile": "/Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.0.aar/91b1bd51dae2f04afb0318e3bf0d47f5/res/values-v23/values-v23.xml",
+                    "source": "/Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/ca5ee51ed354b1f7c96e9b0837c2a191/res/values-v23/values-v23.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,143,251,353,441,549",
+                        "endColumns": "87,107,101,87,107,101",
+                        "endOffsets": "138,246,348,436,544,646"
+                    }
+                },
+                {
+                    "source": "/Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/a32d73b99346e40d67e6b9d6d40c1bda/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -23,17 +33,7 @@
                     }
                 },
                 {
-                    "source": "/Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/material-1.1.0-alpha01.aar/a621291ce7a8b9f705cec22296365099/res/values-v23/values-v23.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,143,251,353,441,549",
-                        "endColumns": "87,107,101,87,107,101",
-                        "endOffsets": "138,246,348,436,544,646"
-                    }
-                },
-                {
-                    "source": "/Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/c2240fcff7fb9cb670f41bfc9486850f/res/values-v23/values-v23.xml",
+                    "source": "/Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/cardview-1.0.0.aar/920960e0a26b17e715c6ca506b84d326/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
