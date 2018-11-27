@@ -110,7 +110,7 @@ public class MainActivity
                     @Override
                     public void run()
                     {
-                        namesAdapter = new ArrayAdapter<String>(MainActivity.this, android.R.layout.simple_list_item_1, android.R.id.text1, names);
+                        namesAdapter = new ArrayAdapter<String>(MainActivity.this, android.R.layout.simple_list_item_2, android.R.id.text1, names);
                         setListAdapter(namesAdapter);
 
                         AsyncTask.execute(new Runnable()
