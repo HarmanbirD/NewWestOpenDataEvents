@@ -2,7 +2,9 @@ package opendata;
 
 import android.app.AlertDialog;
 import android.app.ListActivity;
+import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.AsyncTask;
 import android.os.Bundle;
@@ -21,11 +23,17 @@ import android.widget.Toast;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
 import com.koushikdutta.async.future.FutureCallback;
 import com.koushikdutta.ion.Ion;
 
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Locale;
@@ -61,7 +69,13 @@ public class MainActivity
 
     private Button logoutButton;
 
+    private DatabaseReference databaseReference;
+    private ProgressDialog progressDialog;
+
+
     CulturalEventDOA culturalEventDOA;
+
+    List<CulturalEvent> eventList;
 
     @Override
     protected void onCreate(final Bundle savedInstanceState)
@@ -78,13 +92,19 @@ public class MainActivity
 
         culturalEventDOA = database.culturalEventDOA();
 
+        names = new ArrayList<>();
+
+        databaseReference = FirebaseDatabase.getInstance().getReference("CulturalEvent");
+
+        progressDialog = new ProgressDialog(this);
+
+        eventList = new ArrayList<>();
+
         AsyncTask.execute(new Runnable()
         {
             @Override
             public void run()
             {
-                names = culturalEventDOA.getAllNames();
-
                 runOnUiThread(new Runnable()
                 {
                     @Override
@@ -110,6 +130,43 @@ public class MainActivity
         logoutButton.setOnClickListener(this);
     }
 
+    @Override
+    protected void onStart()
+    {
+        super.onStart();
+
+        databaseReference.addValueEventListener(new ValueEventListener()
+        {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot)
+            {
+                names.clear();
+
+                for (DataSnapshot eventSnapShot : dataSnapshot.getChildren())
+                {
+                    CulturalEvent culturalEvent = eventSnapShot.getValue(CulturalEvent.class);
+
+                    eventList.add(culturalEvent);
+                    names.add(culturalEvent.getName());
+                }
+
+                runOnUiThread(new Runnable()
+                {
+                    public void run()
+                    {
+                        namesAdapter.notifyDataSetChanged();
+                    }
+                });
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError)
+            {
+
+            }
+        });
+    }
+
     private void downloadData(@NonNull final String url,
                               @NonNull final CulturalEventDOA culturalEventDOA)
     {
@@ -120,8 +177,6 @@ public class MainActivity
         // Store that date in the settings
         // Before downloading check the date of the file, if it is later than the stored one download it
         //     and overwrite the database
-        if (culturalEventDOA.count() == 0)
-        {
             Ion.with(MainActivity.this)
                     .load(url)
                     .asJsonObject()
@@ -143,31 +198,17 @@ public class MainActivity
                                     @Override
                                     public void run()
                                     {
-                                        final List<String> tempNames;
-
-                                        parseJSON(json, culturalEventDOA);
-                                        tempNames = culturalEventDOA.getAllNames();
-                                        names.clear();
-                                        names.addAll(tempNames);
-
-                                        runOnUiThread(new Runnable()
-                                        {
-                                            public void run()
-                                            {
-                                                namesAdapter.notifyDataSetChanged();
-                                            }
-                                        });
+                                        parseJSON(json);
                                     }
                                 });
                             }
                         }
                     });
-        }
     }
 
-    private void parseJSON(final JsonObject json,
-                           final CulturalEventDOA culturalEventDOA)
+    private void parseJSON(final JsonObject json)
     {
+        databaseReference.removeValue();
         final Gson      gson;
         final CulturalEvents culturalEvents;
 
@@ -212,7 +253,9 @@ public class MainActivity
             culturalEvent.setWebsite(website);
             culturalEvent.setLatitude(latitude);
             culturalEvent.setLongitude(longitude);
-            culturalEventDOA.insertAll(culturalEvent);
+
+            String eyeD = databaseReference.push().getKey();
+            databaseReference.child(eyeD).setValue(culturalEvent);
         }
     }
 
@@ -231,32 +274,47 @@ public class MainActivity
             public void run()
             {
                 Context context = MainActivity.this;
-                final String address = culturalEventDOA.getAddress(selectedValue);
-                final String description = culturalEventDOA.getDescription(selectedValue);
-                final TextView message = new TextView(context);
-                // i.e.: R.string.dialog_message =>
-                // "Test this dialog following the link to dtmilano.blogspot.com"
-                final SpannableString s =
-                        new SpannableString(culturalEventDOA.getWebsite(selectedValue));
-                Linkify.addLinks(s, Linkify.WEB_URLS);
-                String temp = "Address: " + address + "\n\nDescription: " + description;
-                message.setText(s);
-                message.setMovementMethod(LinkMovementMethod.getInstance());
 
+                CulturalEvent temp = new CulturalEvent();
 
+                boolean isThere = false;
 
-                runOnUiThread(new Runnable()
+                for (CulturalEvent e : eventList)
                 {
-                    public void run()
+                    if (e.getName().equals(selectedValue))
                     {
-                        dlgAlert.setMessage(temp);
-                        dlgAlert.setView(message);
-                        dlgAlert.setTitle(selectedValue);
-                        dlgAlert.setPositiveButton("OK", null);
-                        dlgAlert.setCancelable(true);
-                        dlgAlert.create().show();
+                        isThere = true;
+                        temp = e;
                     }
-                });
+                }
+
+                if (isThere) {
+                    final String name = temp.getName();
+                    final String address = temp.getAddress();
+                    final String description = temp.getDescription();
+                    final TextView message = new TextView(context);
+                    // i.e.: R.string.dialog_message =>
+                    // "Test this dialog following the link to dtmilano.blogspot.com"
+                    final SpannableString s =
+                            new SpannableString(temp.getWebsite());
+                    Linkify.addLinks(s, Linkify.WEB_URLS);
+                    String addy = "Address: " + address + "\n\nDescription: " + description;
+                    message.setText(s);
+                    message.setMovementMethod(LinkMovementMethod.getInstance());
+                    AlertDialog.Builder dlgAlert = new AlertDialog.Builder(context);
+
+
+                    runOnUiThread(new Runnable() {
+                        public void run() {
+                            dlgAlert.setMessage(addy);
+                            dlgAlert.setView(message);
+                            dlgAlert.setTitle(name);
+                            dlgAlert.setPositiveButton("OK", null);
+                            dlgAlert.setCancelable(true);
+                            dlgAlert.create().show();
+                        }
+                    });
+                }
             }
         });
     }
