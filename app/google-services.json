@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1064335576879",
+    "firebase_url": "https://newwestevents-f1575.firebaseio.com",
+    "project_id": "newwestevents-f1575",
+    "storage_bucket": "newwestevents-f1575.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1064335576879:android:10c93bcd3ba70ef0",
+        "android_client_info": {
+          "package_name": "ca.bcit.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1064335576879-sdc0svvsvaav24jg19734d6sefqk5v19.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "ca.bcit.myapplication",
+            "certificate_hash": "7f746f2f69e85dfe279db88cba1b1851aa910121"
+          }
+        },
+        {
+          "client_id": "1064335576879-6tf8kgh8iojnq54043lusgrt01j8jit0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDVCO64z1ebeIfxPW6WO4C28HLq_RHNLrs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1064335576879-6tf8kgh8iojnq54043lusgrt01j8jit0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
