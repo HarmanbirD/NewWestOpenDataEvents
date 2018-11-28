@@ -27,7 +27,7 @@
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="ca.bcit.myapplication.login.LoginActivity"
+            android:name="opendata.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -36,7 +36,8 @@
             </intent-filter>
         </activity>
         <activity android:name="ca.bcit.myapplication.login.RegisterActivity" />
-        <activity android:name="opendata.MainActivity" />
+        <activity android:name="ca.bcit.myapplication.login.LoginActivity" />
+        <activity android:name="opendata.CreateActivity" />
         <activity
             android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
             android:excludeFromRecents="true"

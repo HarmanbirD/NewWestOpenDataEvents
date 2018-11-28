@@ -1660,6 +1660,10 @@
         "source": "/Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/a32d73b99346e40d67e6b9d6d40c1bda/res/drawable-xxhdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
+        "merged": "/Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/build/intermediates/res/merged/debug/layout_activity_create.xml.flat",
+        "source": "/Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/res/layout/activity_create.xml"
+    },
+    {
         "merged": "/Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/build/intermediates/res/merged/debug/anim_abc_fade_in.xml.flat",
         "source": "/Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/appcompat-1.0.2.aar/a32d73b99346e40d67e6b9d6d40c1bda/res/anim/abc_fade_in.xml"
     },

@@ -13,9 +13,12 @@ import android.text.SpannableString;
 import android.text.method.LinkMovementMethod;
 import android.text.util.Linkify;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -68,10 +71,13 @@ public class MainActivity
     private List<String> names;
 
     private Button logoutButton;
+    private Button createEvent;
 
     private DatabaseReference databaseReference;
-    private ProgressDialog progressDialog;
 
+    private DatabaseReference databaseReferenceUserEvents;
+
+    private ProgressDialog progressDialog;
 
     CulturalEventDOA culturalEventDOA;
 
@@ -86,6 +92,14 @@ public class MainActivity
 
         firebaseAuth = FirebaseAuth.getInstance();
 
+        if (firebaseAuth.getCurrentUser() == null)
+        {
+            Intent intent = new Intent(this, ca.bcit.myapplication.login.LoginActivity.class);
+            startActivity(intent);
+        }
+
+        createEvent = findViewById(R.id.newEvent);
+
         database = Room.databaseBuilder(getApplicationContext(),
                 CultureEventsDatabase.class,
                 "artists").build();
@@ -94,7 +108,8 @@ public class MainActivity
 
         names = new ArrayList<>();
 
-        databaseReference = FirebaseDatabase.getInstance().getReference("CulturalEvent");
+        databaseReference           = FirebaseDatabase.getInstance().getReference("CulturalEvent");
+        databaseReferenceUserEvents = FirebaseDatabase.getInstance().getReference("UserEvent");
 
         progressDialog = new ProgressDialog(this);
 
@@ -110,7 +125,7 @@ public class MainActivity
                     @Override
                     public void run()
                     {
-                        namesAdapter = new ArrayAdapter<String>(MainActivity.this, android.R.layout.simple_list_item_2, android.R.id.text1, names);
+                        namesAdapter = new ArrayAdapter<String>(MainActivity.this, android.R.layout.simple_list_item_activated_2, android.R.id.text1, names);
                         setListAdapter(namesAdapter);
 
                         AsyncTask.execute(new Runnable()
@@ -162,6 +177,35 @@ public class MainActivity
             @Override
             public void onCancelled(@NonNull DatabaseError databaseError)
             {
+
+            }
+        });
+
+        databaseReferenceUserEvents.addValueEventListener(new ValueEventListener()
+        {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot)
+            {
+
+                for (DataSnapshot eventSnapShot : dataSnapshot.getChildren())
+                {
+                    CulturalEvent culturalEvent = eventSnapShot.getValue(CulturalEvent.class);
+
+                    eventList.add(culturalEvent);
+                    names.add(culturalEvent.getName());
+                }
+
+                runOnUiThread(new Runnable()
+                {
+                    public void run()
+                    {
+                        namesAdapter.notifyDataSetChanged();
+                    }
+                });
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
 
             }
         });
@@ -319,13 +363,18 @@ public class MainActivity
         });
     }
 
+
+    public void createEventIntent(View v)
+    {
+        startActivity(new Intent(this, opendata.CreateActivity.class));
+    }
+
     @Override
     public void onClick(View v)
     {
         if (v == logoutButton)
         {
             firebaseAuth.signOut();
-            finish();
             startActivity(new Intent(this, ca.bcit.myapplication.login.LoginActivity.class));
         }
     }

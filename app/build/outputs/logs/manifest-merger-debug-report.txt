@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:2:1-31:12
+ADDED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:2:1-32:12
 MERGED from [androidx.room:room-runtime:2.0.0-rc01] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/room-runtime-2.0.0-rc01.aar/9b730f6096a67e05ca44a3258901931c/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-database:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-database-16.0.5.aar/9937693b4ad7cea1513e4d51b2f647b0/AndroidManifest.xml:15:1-25:12
 MERGED from [com.google.firebase:firebase-auth:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-16.0.5.aar/7ec5cee127d13824cf4b603ab23c4043/AndroidManifest.xml:17:1-42:12
@@ -62,22 +62,22 @@ MERGED from [androidx.lifecycle:lifecycle-runtime:2.0.0] /Users/harmanbirdhillon
 MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/cursoradapter-1.0.0.aar/b218c57f5581a0b2e34d8970cc5e3f04/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/interpolator-1.0.0.aar/c30c74942adb1762b2e1e6def3eb8a5a/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/versionedparcelable-1.0.0.aar/227b5dc37d4f3e9cc59eba8377205d1d/AndroidManifest.xml:17:1-25:12
-INJECTED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:2:1-31:12
-INJECTED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:2:1-31:12
+INJECTED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:2:1-32:12
+INJECTED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:2:1-32:12
 	package
 		ADDED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:4:5-36
 		INJECTED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml
-		ADDED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:2:1-31:12
+		ADDED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:2:1-32:12
 		INJECTED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml
-		ADDED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:2:1-31:12
+		ADDED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:2:1-32:12
 		INJECTED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:2:11-69
@@ -94,7 +94,7 @@ ADDED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/
 	android:name
 		ADDED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:8:22-69
 application
-ADDED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:10:5-29:19
+ADDED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:10:5-30:19
 MERGED from [com.google.firebase:firebase-auth:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-16.0.5.aar/7ec5cee127d13824cf4b603ab23c4043/AndroidManifest.xml:23:5-40:19
 MERGED from [com.google.firebase:firebase-auth:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/jetified-firebase-auth-16.0.5.aar/7ec5cee127d13824cf4b603ab23c4043/AndroidManifest.xml:23:5-40:19
 MERGED from [com.google.firebase:firebase-core:16.0.5] /Users/harmanbirdhillon/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.5.aar/b74aa87a6641d53a12d471bb068a7ded/AndroidManifest.xml:7:5-20
@@ -155,12 +155,12 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.0.0] /Users/harm
 		ADDED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:11:9-43
 	android:theme
 		ADDED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:15:9-40
-activity#ca.bcit.myapplication.login.LoginActivity
+activity#opendata.MainActivity
 ADDED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:17:9-25:20
 	android:label
 		ADDED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:19:13-45
 	android:name
-		ADDED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:18:13-48
+		ADDED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:18:13-49
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
@@ -175,10 +175,14 @@ activity#ca.bcit.myapplication.login.RegisterActivity
 ADDED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:26:9-60
 	android:name
 		ADDED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:26:19-57
-activity#opendata.MainActivity
-ADDED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:27:9-58
+activity#ca.bcit.myapplication.login.LoginActivity
+ADDED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:27:9-57
 	android:name
-		ADDED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:27:19-55
+		ADDED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:27:19-54
+activity#opendata.CreateActivity
+ADDED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:28:9-60
+	android:name
+		ADDED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml:28:19-57
 uses-sdk
 INJECTED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/harmanbirdhillon/AndroidStudioProjects/MyApplication4/app/src/main/AndroidManifest.xml

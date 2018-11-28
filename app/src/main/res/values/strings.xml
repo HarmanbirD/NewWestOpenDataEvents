@@ -28,4 +28,9 @@
     <string name="name_hint">Name</string>
     <string name="text_register">Register</string>
     <string name="successful_login">Successful Login</string>
+    <string name="website_link">Website link</string>
+    <string name="description">Description</string>
+    <string name="address">Address</string>
+    <string name="event_name">Event Name</string>
+    <string name="cancel">Cancel</string>
 </resources>

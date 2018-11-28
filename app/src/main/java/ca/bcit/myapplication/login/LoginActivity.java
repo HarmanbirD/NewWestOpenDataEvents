@@ -52,11 +52,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
         firebaseAuth = FirebaseAuth.getInstance();
 
-        if (firebaseAuth.getCurrentUser() != null)
-        {
-            loggedIn();
-        }
-
         initViews();
         initListeners();
         initObjects();
@@ -98,6 +93,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             case R.id.textViewLinkRegister:
                 Intent intent = new Intent(getApplicationContext(), RegisterActivity.class);
                 startActivity(intent);
+                finish();
                 break;
         }
     }
@@ -136,7 +132,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                         if (task.isSuccessful())
                         {
                             progressDialog.dismiss();
-                            loggedIn();
+                            finish();
                             emptyInputEditText();
                         }
                         else
@@ -158,13 +154,6 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 //        } else {
 //            Toast.makeText(LoginActivity.this, getString(R.string.error_invalid_email_password), Toast.LENGTH_LONG).show();
 //        }
-    }
-
-    private void loggedIn()
-    {
-        finish();
-        Intent intent = new Intent(activity, opendata.MainActivity.class);
-        startActivity(intent);
     }
 
     private void emptyInputEditText()
